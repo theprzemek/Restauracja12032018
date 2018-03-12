@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Readme</title>
+</head>
+<body>
+<h1>Read Me</h1>
+<p>Program do rezerwowania stolika w restauracji</p><br>
+<h3>Start programu</h3>
+<p>Program rozpoczyna /index.jsp</p>
+<p>RESTful web service do wypisania listy rezerwacji rozpoczyna /api/rest</p><br>
+<h3>Podstawowe założenia</h3>
+<p>Rezerwacji dokonywać można w godzinach od 08:00 do 22:59 od 01/01/2018 do 31/12/2099. Rezerwacje rozpoczynają się od pełnej godziny i kończą się po jej upływie.</p>
+<p> W restauracji dostępnych jest 5 stolików na każdą godzinę.</p><br>
+<p>Walidacja danych odbywa się na poziomie przeglądarki użytkownika i jest wykonywana przez wurażenia regularne w JavaScript</p>
+<p>Po stronie serwera nie ma walidacji wprowadzanych danych</p>
+<h3>SQL</h3>
+<p>Do obsługi bazy danych użyto MySQL</p>
+<p>parametry połączenia to:</p>
+<p>hostname = "localhost"</p>
+<p>database = "restauracja"</p>
+<p>username = "root"</p>
+<p>rootPassword = "SQLRoot"</p><br>
+<p>inicjalizacja tabeli w MySQL przy pomocy narzedzia.StartSQL</p><br>
+<p>W bazie, dane przechowywane są w jednej tabeli o nazwie "rezerwacja". Kluczem głównym jest "idRezerwacja".</p><br>
+</body>
+</html>
